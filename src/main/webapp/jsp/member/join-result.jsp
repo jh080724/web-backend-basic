@@ -16,5 +16,7 @@
         <li>나이: ${member.age}</li>
                 <li> ${member.userName}님 환영합니다.!</li>
     </ul>
+    <br>
+    <a href="/servlet-mvc/members">전체 회원 목록 보기</a>
 </body>
 </html>
