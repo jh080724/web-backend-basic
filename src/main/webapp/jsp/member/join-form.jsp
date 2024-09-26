@@ -1,4 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%-- 주석 위의 JSP 코드는 아래 자바 코드와 같다. --%>
+<%-- response.setContentType("text/html"); --%>
+<%-- response.setCharacterEncoding("UTF-8"); --%>
 
 <!DOCTYPE html>
 <html lang="ko">
@@ -8,7 +11,7 @@
     <title>회원가입 form</title>
   </head>
   <body>
-    <form action="/jsp/member/join.jsp" method="post">
+    <form action="/servlet-mvc/member/join" method="post">
       아이디: <input type="text" name="id" /> <br />
       비밀번호: <input type="password" name="pw" /> <br />
       이름: <input type="text" name="username" /> <br />
