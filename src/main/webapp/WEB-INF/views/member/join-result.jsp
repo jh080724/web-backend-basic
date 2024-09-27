@@ -17,6 +17,6 @@
                 <li> ${member.userName}님 환영합니다.!</li>
     </ul>
     <br>
-    <a href="/front-controller/v1/members">전체 회원 목록 보기</a>
+    <a href="/front-controller/v3/members">전체 회원 목록 보기</a>
 </body>
 </html>
