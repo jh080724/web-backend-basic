@@ -18,12 +18,13 @@ public class MvcMemberListServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest request,
                            HttpServletResponse response) throws ServletException, IOException {
+        System.out.println("[dbg] MvcMemberListServlet service 호출!");
 
         List<Member> memberList = MemberRepositoryImpl.getInstance().getList();
 
         request.setAttribute("mList", memberList);
 
-        RequestDispatcher dp = request.getRequestDispatcher("/jsp/member/members.jsp");
+        RequestDispatcher dp = request.getRequestDispatcher("/WEB-INF/views/member/members.jsp");
 
         dp.forward(request, response);
 

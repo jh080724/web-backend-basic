@@ -87,7 +87,7 @@ public class MemberRepositoryImpl implements MemberRepository {
                 Member m = new Member(
                         rs.getString("id"),
                         rs.getString("pw"),
-                        rs.getString("name"),
+                        rs.getString("username"),
                         rs.getInt("age")
                 );
 
